@@ -2,18 +2,13 @@
 
 [![Paper](https://img.shields.io/badge/IEEE-TNNLS-blue)](https://ieeexplore.ieee.org/abstract/document/11494096)
 
-Official implementation of the paper: **"Monte Carlo Marginalization: A Differentiable Method to Learn High-Dimensional Distributions"**, published in *IEEE Transactions on Neural Networks and Learning Systems (TNNLS)*, 2026.
+Implementation of the paper: **"Monte Carlo Marginalization: A Differentiable Method to Learn High-Dimensional Distributions"**, published in *IEEE Transactions on Neural Networks and Learning Systems (TNNLS)*, 2026.
 
 ---
-
 
 <p align="center">
   <img src="./updateGMM.gif" width="100%">
 </p>
-
-
-
-*Visualization of the distribution learning process using MCMarg.*
 
 ## Introduction
 
