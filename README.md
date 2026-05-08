@@ -12,6 +12,7 @@ Implementation of the paper: **"Monte Carlo Marginalization: A Differentiable Me
 **MCMarg** is a novel differentiable framework designed to learn complex, high-dimensional probability distributions. By integrating Monte Carlo techniques into a gradient-based optimization pipeline, our method addresses the "curse of dimensionality" commonly encountered in generative modeling, filtering, and density estimation.
 
 <img src="./figure.png" width="100%">
+
 > **Figure 1: Illustration of the proposed approach.** > We use a Gaussian Mixture Model $p(\mathbf{z};\boldsymbol{\theta})$ to approximate the target distribution $q(\mathbf{z})$, by minimizing the KL divergence between their marginal distributions $q_{\vec{u}}(\mathbf{z})$ and $p_{\vec{u}}(\mathbf{z})$ on different random unit vectors $\vec{u}_1, \vec{u}_2, \dots, \vec{u}_T$.
 
 
