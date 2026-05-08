@@ -22,11 +22,23 @@ Run the model with default settings:
 python MCMarg.py
 
 ## Installation
+Specific Distribution Learning
+To train the model on a specific dataset (e.g., the Moons dataset), use the --datapth argument to specify the path:
 
-```bash
-# Clone the repository
-git clone [https://github.com/your-username/MCMarg.git](https://github.com/your-username/MCMarg.git)
-cd MCMarg
+Bash
+python MCMarg.py --datapth ./data/samples_moons.pt
+Citation
+If you use this code or the MCMarg method in your research, please cite our paper:
 
-# Install dependencies (Example)
-pip install torch torchvision numpy
+Code snippet
+@ARTICLE{11494096,
+  author={Zhao, Chenqiu and Dong, Guanfang and Basu, Anup},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={Monte Carlo Marginalization: A Differentiable Method to Learn High-Dimensional Distributions}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-15},
+  keywords={Filtering;Oscillators;Circuits and systems;Central Processing Unit;Filters;System-on-chip;Videos;Video equipment;Internet of Things;Communication systems;Distribution learning;image generation;Monte Carlo method},
+  doi={10.1109/TNNLS.2026.3682991}
+}
