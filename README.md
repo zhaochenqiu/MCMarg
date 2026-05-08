@@ -33,7 +33,6 @@ python MCMarg.py --datapth ./data/samples_moons.pt
 
 If you use this code or the MCMarg method in your research, please cite our paper:
 ```
-Code snippet
 @ARTICLE{11494096,
   author={Zhao, Chenqiu and Dong, Guanfang and Basu, Anup},
   journal={IEEE Transactions on Neural Networks and Learning Systems}, 
