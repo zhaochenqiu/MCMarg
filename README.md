@@ -22,6 +22,11 @@ Run the model with default settings:
 ```bash
 python MCMarg.py
 
+### Default Execution
+Run the model with default settings:
+```bash
+python MCMarg.py
+
 ## Installation
 Specific Distribution Learning
 To train the model on a specific dataset (e.g., the Moons dataset), use the --datapth argument to specify the path:
