@@ -11,6 +11,18 @@ Implementation of the paper: **"Monte Carlo Marginalization: A Differentiable Me
 </p>
 
 ## Introduction
+
+<p align="center">
+  <img src="./updateGMM.gif" width="100%">
+  <br>
+  <b>Figure 1: Illustration of the proposed approach.</b> 
+  <br>
+  <em>
+    We use a Gaussian Mixture Model $p(\mathbf{z};\boldsymbol{\theta})$ to approximate the target distribution $q(\mathbf{z})$, by minimizing the KL divergence between their marginal distributions $q_{\vec{u}}(\mathbf{z})$ and $p_{\vec{u}}(\mathbf{z})$ on different random unit vectors $\vec{u}_1, \vec{u}_2, \cdots \vec{u}_T$.
+  </em>
+</p>
+
+
 <p align="center">
   <img src="./figure.png" width="100%">
 </p>
