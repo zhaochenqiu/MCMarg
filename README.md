@@ -11,6 +11,10 @@ Implementation of the paper: **"Monte Carlo Marginalization: A Differentiable Me
 </p>
 
 ## Introduction
+<p align="center">
+  <img src="./figure.png" width="100%">
+</p>
+
 
 **MCMarg** is a novel differentiable framework designed to learn complex, high-dimensional probability distributions. By integrating Monte Carlo techniques into a gradient-based optimization pipeline, our method addresses the "curse of dimensionality" commonly encountered in generative modeling, filtering, and density estimation.
 
