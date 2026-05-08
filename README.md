@@ -6,6 +6,8 @@ Official implementation of the paper: **"Monte Carlo Marginalization: A Differen
 
 ---
 
+![Training Progress](./updateGMM.gif)
+
 ![MCMarg Training Process](./updateGMM.gif)
 *Visualization of the distribution learning process using MCMarg.*
 
