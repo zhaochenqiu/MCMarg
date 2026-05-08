@@ -29,10 +29,10 @@ To train the model on a specific dataset (e.g., the Moons dataset), use the --da
 Bash
 python MCMarg.py --datapth ./data/samples_moons.pt
 ```
-Citation
+###Citation
 
 If you use this code or the MCMarg method in your research, please cite our paper:
-
+```
 Code snippet
 @ARTICLE{11494096,
   author={Zhao, Chenqiu and Dong, Guanfang and Basu, Anup},
@@ -45,3 +45,4 @@ Code snippet
   keywords={Filtering;Oscillators;Circuits and systems;Central Processing Unit;Filters;System-on-chip;Videos;Video equipment;Internet of Things;Communication systems;Distribution learning;image generation;Monte Carlo method},
   doi={10.1109/TNNLS.2026.3682991}
 }
+```
