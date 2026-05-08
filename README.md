@@ -8,13 +8,8 @@ Official implementation of the paper: **"Monte Carlo Marginalization: A Differen
 
 
 <p align="center">
-  <img src="./updateGMM.gif" width="600px">
-  <br>
-  <em>Learning Process Visualization</em>
+  <img src="./updateGMM.gif" width="100%">
 </p>
-
-
-![Training Progress](./updateGMM.gif)
 
 
 
